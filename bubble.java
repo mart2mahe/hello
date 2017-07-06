@@ -2,7 +2,7 @@ public class bubble
 {
        public static void main(String[] args)
        {
-                int intArray[] = new int[]{5,90,35,45,150,3};
+                int intArray[] = new int[]{5,90,35,45,150,3,6847,9999,1,0,7548,5767};
                 System.out.println("Array Before Bubble Sort");
                 for(int i=0; i < intArray.length; i++)
                 {
@@ -48,7 +48,7 @@ public class bubble
                 {
                    for(int j=1; j < (n-i); j++)
                       {
-                        if(intArray[j-1] < intArray[j])
+                        if(intArray[j-1] > intArray[j])
                             {
                                  //swap the elements!
                                    temp = intArray[j-1];
